@@ -14,7 +14,7 @@ class OneToHundredStream extends Readable {
         const buf = Buffer.from(String(i));
         this.push(buf);
       }
-    }, 1000);
+    }, 3000);
   }
 }
 
